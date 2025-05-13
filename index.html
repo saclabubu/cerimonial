@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabiane Vitorino - Assessoria e Cerimonial</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+      /* Custom CSS for slideshow button positioning */
+      .slideshow-container {
+        position: relative; /* Ensure this is set for absolute positioning of children */
+      }
+      .slideshow-container .prev,
+      .slideshow-container .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); /* Better vertical centering */
+        width: auto;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 24px; /* Increased for better visibility */
+        transition: 0.6s ease;
+        user-select: none;
+        background-color: rgba(0,0,0,0.5); /* Semi-transparent background */
+        z-index: 10; /* Ensure it's above images */
+      }
+
+      .slideshow-container .prev {
+        left: 10px; /* Position from the left edge with a small margin */
+        border-radius: 0 3px 3px 0;
+      }
+
+      .slideshow-container .next {
+        right: 10px; /* Position from the right edge with a small margin */
+        border-radius: 3px 0 0 3px;
+      }
+
+      .slideshow-container .prev:hover,
+      .slideshow-container .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img id="logo" src="/static/images/logo.png" alt="Logo Fabiane Vitorino">
+            </div>
+            <button class="hamburger-menu" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero hero-banner">
+        <div class="container">
+            <h1>Fabiane Vitorino Assessoria e Cerimonial</h1>
+            <p>Realizando Sonhos, Criando Memórias Inesquecíveis.</p>
+            <p>🇧🇷🇦🇺🇫🇷🇺🇸 Atendemos o mundo inteiro, vamos até onde seu sonho pode se tornar realidade.</p>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>A nossa assessoria e cerimonial é para você que sonha em ter um evento exclusivo, afetivo e único. Com 10 anos de carreira e mais de 300 eventos realizados, Fabiane Vitorino e sua equipe dedicam-se a transformar seus sonhos em realidade, cuidando de cada detalhe com profissionalismo e paixão.</p>
+        </div>
+    </section>
+
+    <section id="servicos" class="cards-section">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-item">
+                    <h3>Destination Wedding</h3>
+                    <p>Levamos a magia do seu casamento para qualquer lugar do mundo. Cuidamos de toda a logística para que seu Destination Wedding seja perfeito e inesquecível.</p>
+                </div>
+                <div class="servico-item">
+                    <h3>Casamentos ao Ar Livre</h3>
+                    <p>Celebre o amor em total integração com a natureza. Criamos cenários deslumbrantes para casamentos ao ar livre, cheios de charme e personalidade.</p>
+                </div>
+                <div class="servico-item">
+                    <h3>Aniversários de 15 Anos</h3>
+                    <p>Transformamos o sonho da debutante em uma festa mágica e memorável, com planejamento completo e atenção a cada detalhe.</p>
+                </div>
+                <div class="servico-item">
+                    <h3>Aniversários Infantis</h3>
+                    <p>Festas temáticas criativas e divertidas para celebrar os momentos especiais dos pequenos, com organização impecável e muita alegria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="dark-bg">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <p>Veja alguns dos momentos mágicos que tivemos o prazer de organizar.</p>
+            <div class="slideshow-container">
+                <div class="portfolio-slide fade" style="display: block;">
+                    <img src="/static/images/IMG_8484.jpeg" alt="Evento realizado por Fabiane Vitorino 1">
+                </div>
+                <div class="portfolio-slide fade" style="display: none;">
+                    <img src="/static/images/IMG_8485.jpeg" alt="Evento realizado por Fabiane Vitorino 2">
+                </div>
+                <div class="portfolio-slide fade" style="display: none;">
+                    <img src="/static/images/IMG_8486.jpeg" alt="Evento realizado por Fabiane Vitorino 3">
+                </div>
+                <div class="portfolio-slide fade" style="display: none;">
+                    <img src="/static/images/IMG_8487.jpeg" alt="Evento realizado por Fabiane Vitorino 4">
+                </div>
+                <div class="portfolio-slide fade" style="display: none;">
+                    <img src="/static/images/IMG_8488.jpeg" alt="Evento realizado por Fabiane Vitorino 5">
+                </div>
+                <div class="portfolio-slide fade" style="display: none;">
+                    <img src="/static/images/IMG_8489.jpeg" alt="Evento realizado por Fabiane Vitorino 6">
+                </div>
+                <div class="portfolio-slide fade" style="display: none;">
+                    <img src="/static/images/IMG_8490.jpeg" alt="Evento realizado por Fabiane Vitorino 7">
+                </div>
+                <div class="portfolio-slide fade" style="display: none;">
+                    <img src="/static/images/IMG_8491.jpeg" alt="Evento realizado por Fabiane Vitorino 8">
+                </div>
+                <div class="portfolio-slide fade" style="display: none;">
+                    <img src="/static/images/IMG_8492.jpeg" alt="Evento realizado por Fabiane Vitorino 9">
+                </div>
+                <!-- Navigation arrows -->
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br>
+            <!-- Dots/circles -->
+            <div style="text-align:center">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="diferenciais">
+        <div class="container">
+            <h2>Nossos Diferenciais</h2>
+            <ul>
+                <li>✨ Especializados em Destination Wedding</li>
+                <li>✨ Casamentos ao Ar Livre totalmente integrado a natureza.</li>
+                <li>✨ Aniversários de 15 anos.</li>
+                <li>✨ Aniversários infantis</li>
+                <li>✨ São +300 eventos em 10 anos de carreira.</li>
+                <li>✨ Atendimento exclusivo, afetivo e único.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="dark-bg">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <p>Veja o que nossos clientes dizem sobre nós:</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/-0rjL4C5g2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Vamos conversar sobre o seu evento dos sonhos!</p>
+            <p>Email: contato@fabianevitorino.com (Exemplo)</p>
+            <p>Telefone: (XX) XXXXX-XXXX (Exemplo)</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Fabiane Vitorino Assessoria e Cerimonial. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="/static/js/script.js"></script>
+
+</body>
+</html>
